@@ -1,0 +1,23 @@
+body .bg-pattern {
+    position: relative;
+    height: calc(100vh - 2.50rem);
+
+}
+
+.bg-pattern::before {
+    content: "";
+    background-image: url("images/pattern.png");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+
+headern, main, footer {
+    position: relative;
+
+}
