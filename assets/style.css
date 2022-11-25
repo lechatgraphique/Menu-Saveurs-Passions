@@ -76,9 +76,10 @@ footer a {
     font-weight: bold;
     color: var(--primary-color);
 }
-
 .button {
-    margin: 3rem 1rem;
+    text-align: center;
+    width: 200px;
+    margin: 3rem auto;
     --offset: 10px;
     --border-size: 2px;
     display: block;
@@ -89,7 +90,8 @@ footer a {
     background: white;
     color: var(--primary-color);
     text-transform: uppercase;
-    letter-spacing: 0.25em;
+    font-size: 1.2rem;
+    letter-spacing: 0.1em;
     outline: none;
     cursor: pointer;
     border-radius: 0;
